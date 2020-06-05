@@ -1,5 +1,9 @@
 ---
-title: Bubblecorp.Github.Io
+title: Bubblegame
+description: Bet now!
+image:
+author:
+lang: en
 timezone: UTC
 collections:
   posts:
@@ -8,3 +12,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+plugins:
+  - jekyll-seo-tag
+twitter:
+  username: playbubblegame
+  card: summary
+logo: https://res.cloudinary.com/bubblegame/image/upload/f_auto/logo
+social:
+  name: Bubblegame
+  links:
+    - https://twitter.com/playbubblegame
+webmaster_verifications:
+  google: freHE_n_Yk6GISr0it_jZhwymo1hVEgSxQ8XGnzV6ss
