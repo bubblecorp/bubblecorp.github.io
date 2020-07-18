@@ -1,9 +1,5 @@
 ---
 title: Bubblegame
-description: Blow it up!
-image:
-author:
-lang: en
 timezone: UTC
 collections:
   posts:
@@ -12,9 +8,13 @@ collections:
   uploads:
     title: Uploads
     output: true
+description: Blow it up!
+image: 
+author: 
+lang: en
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-sitemap
 twitter:
   username: playbubblegame
   card: summary
@@ -22,6 +22,6 @@ logo: https://res.cloudinary.com/bubblegame/image/upload/f_auto/logo
 social:
   name: Bubblegame
   links:
-    - https://twitter.com/playbubblegame
+  - https://twitter.com/playbubblegame
 webmaster_verifications:
   google: freHE_n_Yk6GISr0it_jZhwymo1hVEgSxQ8XGnzV6ss
