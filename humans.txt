@@ -1,0 +1,14 @@
+---
+layout:
+---
+
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TECHNOLOGY COLOPHON
+
+    TAILWINDCSS, JEKYLL
+
+# SITE
+
+Last update: {{ site.time }}
