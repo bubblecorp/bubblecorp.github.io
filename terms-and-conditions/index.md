@@ -1,6 +1,6 @@
 ---
-layout: post
 title: Terms and Conditions
+layout: post
 ---
 
 <small>Last updated: July 17, 2020</small>
