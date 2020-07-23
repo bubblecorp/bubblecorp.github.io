@@ -13,7 +13,7 @@ image:
   path: https://res.cloudinary.com/bubblegame/image/upload/f_auto/bubble-social
   height: 1200
   width: 628
-author:
+author: 
 lang: en
 plugins:
 - jekyll-seo-tag
