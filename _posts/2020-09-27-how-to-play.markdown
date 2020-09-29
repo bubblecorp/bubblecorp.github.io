@@ -12,3 +12,7 @@ It’s the only provably fair game that gives you a real chance of winning in a 
 A participatory game in which the more people play, the more likely it is to win.
 
 There are 2 variatons of the game, Random, and Infinite.
+
+## Use case
+
+<img src="http://placehold.it/300x250">
