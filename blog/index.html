@@ -4,7 +4,7 @@ layout: default
 ---
 
 <section class="text-gray-700 body-font overflow-hidden">
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-12 mx-auto">
         <div class="text-center mb-20">
             <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">Blog</h1>
             <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Here we post relevant information about our platform.</p>
@@ -20,9 +20,11 @@ layout: default
                 </aside>
                 <div class="md:flex-grow">
                     <header>
-                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">{{ post.title }}</h2>
+                        <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                            <a href="{{ post.url }}" class="text-indigo-500">{{ post.title }}</a>
+                        </h2>
                     </header>
-                    <main>
+                    <main class="leading-relaxed">
                         <p class="leading-relaxed">{{ post.excerpt }}</p>
                         <a href="{{ post.url }}" class="text-indigo-500 inline-flex items-center mt-4">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
